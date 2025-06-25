@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tables</title>
+        <style>
+            table,td,th{
+                border:2px solid red;
+                border-collapse:collapse;
+            }
+        </style>
+    
+<body>
+<table border="2" cellpadding="1" cellspacing="2">
+    <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>stream</th>
+        <th>college</th>
+    </tr>
+    <tr> 
+        <td rowspan="2">1</td>
+        <td>AMMA PRASHANTH</td>
+        <td>ECE</td>
+        <td>SR UNIVERSITY</td>
+    </tr>
+    <tr>
+        <!-- <td>2</td> -->
+        <td><table border="1" width="100" >
+            <tr>
+                <td>1</td>
+                <td colspan="2" rowspan="2">2</td>
+                  <!-- <td>3</td> -->
+            </tr>
+            <tr>
+                <td>9</td>
+                <!-- <td>8</td> -->
+                <!-- <td>7</td> -->
+            </tr>
+        </table></td>
+        <td>4 year</td>
+        <td>warangal</td>           
+    </tr>
+    <tr> </tr>
+</table>
+</body>
+</html>
